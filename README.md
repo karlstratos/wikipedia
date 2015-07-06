@@ -16,5 +16,7 @@ the footer. Use it on an (uncompressed) XML file [xml] to obtain a single text
 file [txt] like this:
 
 `python WikiExtractor.py [xml] -cb 250K -o temp_dir`
+
 `find temp_dir -name '*bz2' -exec bunzip2 -c {} \; > [txt]`
+
 `rm -rf temp_dir`
