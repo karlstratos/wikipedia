@@ -1,6 +1,10 @@
 # Author: Karl Stratos (stratos@cs.columbia.edu)
 """
-This module is used to clean an initially extracted Wikipedia text file.
+This module is used to clean an English text file extracted using the Python
+script by Giuseppe Attardi. You need to specify the path to the Stanford
+tokenizer: e.g., path to the directory "stanford-corenlp-full-2014-08-27/".
+
+Use it like: python3 clean_en.py [input.txt] [output.txt] > [log.txt]
 """
 
 import argparse

@@ -20,3 +20,7 @@ file [txt] like this:
 `find temp_dir -name '*bz2' -exec bunzip2 -c {} \; > [txt]`
 
 `rm -rf temp_dir`
+
+* Run a language-specific cleaning script on this text file. E.g., for English
+
+`python3 clean_en.py [input.txt] [output.txt] > [log.txt]`
